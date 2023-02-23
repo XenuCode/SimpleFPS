@@ -17,8 +17,12 @@
   - 16 GB pamięci RAM
   - 4GB przestrzeni dyskowej
 
+## Licencje
 
 Gra stworzona została na silniku Unity i za pomoca C#
+
+
+## Twórcy
 
 - Jakub Jekiel - Główny programista
 - Maciej Kaczara - Oprawa graficzna, design poziomu
