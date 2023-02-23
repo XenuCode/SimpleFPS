@@ -1,5 +1,5 @@
 # Funkcjonalność programu: Poprawa koordynacji ruchowo wzrokowej
-
+- - -
 ## Instrukcja:
 - Pobierasz i grasz, a jeżeli nie działa to skontaktuj się z supportem
 - Za poruszanie odpowiadają przyciski `W` ,`A` ,`S` ,`D`, z połączenie z `SHIFT` można biegać a pod C kuca się. Za strzelanie odpowiada lewy przycisk myszy.
@@ -18,10 +18,9 @@
   - 4GB przestrzeni dyskowej
 
 ## Licencje
-
-Gra stworzona została na silniku Unity i za pomoca C#
-
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
+- - -
 ## Twórcy
 
 - Jakub Jekiel - Główny programista
