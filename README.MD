@@ -16,10 +16,14 @@
   - Nvidia GTX 750 TI / Intel Iris Xe lub lepszy
   - 16 GB pamięci RAM
   - 4GB przestrzeni dyskowej
-  - komputer z kartą graficzną 750 TI  i w miare nowym procesorem(Ryzen 5 3600 min) i z 4 GB Ramu
+
+
+
+
 
 Gra stworzona została na silniku Unity i za pomoca C#
 
-Jakub Jekiel - Główny programista
-Maciej Kaczara - Oprawa graficzna
-Krystian Trębacz - Programista
+- Jakub Jekiel - Główny programista
+- Maciej Kaczara - Oprawa graficzna, design poziomu
+- Krystian Trębacz - Programista, UX/UI
+- Piotr Lasoń - Support
