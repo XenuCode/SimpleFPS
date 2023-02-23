@@ -18,8 +18,13 @@
   - 4GB przestrzeni dyskowej
   - komputer z kartą graficzną 750 TI  i w miare nowym procesorem(Ryzen 5 3600 min) i z 4 GB Ramu
 
+
+
+
+
 Gra stworzona została na silniku Unity i za pomoca C#
 
 Jakub Jekiel - Główny programista
-Maciej Kaczara - Oprawa graficzna
-Krystian Trębacz - Programista
+Maciej Kaczara - Oprawa graficzna, design poziomu
+Krystian Trębacz - Programista, UX/UI
+Piotr Lasoń - Support
