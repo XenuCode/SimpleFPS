@@ -18,9 +18,6 @@
   - 4GB przestrzeni dyskowej
 
 
-
-
-
 Gra stworzona została na silniku Unity i za pomoca C#
 
 - Jakub Jekiel - Główny programista
