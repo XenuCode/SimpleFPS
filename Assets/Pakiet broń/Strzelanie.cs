@@ -8,6 +8,7 @@ public class Strzelanie : MonoBehaviour
 {
     public Transform bulletSpawnPoint;
     public GameObject bulletPrefab;
+    public GameObject light;
     public float bulletSpeed = 10;
     public Animation animation;
     public int ammoCount =30;
@@ -15,6 +16,7 @@ public class Strzelanie : MonoBehaviour
     public TextMeshProUGUI magazine, totalAmmo;
     private double lastTime = 0;
     public float shootInterval =0.3f;
+    public float lightTime;
     void Update()
     {
         if (Input.GetKey(KeyCode.Mouse0)&& Time.timeAsDouble-lastTime > shootInterval && ammoInMagazine >0)
@@ -25,8 +27,13 @@ public class Strzelanie : MonoBehaviour
             bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletSpeed;
             lastTime = Time.timeAsDouble;
             //animation.Play("Shoot");
+            light.SetActive(true);
         }
 
+        if (Time.timeAsDouble-lastTime>lightTime)
+        {
+            light.SetActive(false);
+        }
         if (Input.GetKeyDown(KeyCode.R) && ammoCount + ammoInMagazine > 0)
         {
             animation.Play("Reload");
