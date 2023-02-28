@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 public class Pocisk : MonoBehaviour
@@ -11,12 +12,11 @@ public class Pocisk : MonoBehaviour
         Destroy(gameObject, life);
     }
 
-    void OnCollisionEnter(Collision Enemy)
+    void OnCollisionEnter(Collision enemy)
     {
-        if (Enemy.gameObject.tag == "Enemy")
+        if (enemy.gameObject.CompareTag("Enemy"))
         {
-            Destroy(Enemy.gameObject);
-            Destroy(gameObject);
+            enemy.gameObject.GetComponent<TiktakScript>().Damage(20);
         }
 
     }
