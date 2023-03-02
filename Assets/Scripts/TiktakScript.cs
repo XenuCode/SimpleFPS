@@ -13,7 +13,6 @@ namespace DefaultNamespace
         public int health=100;
         private void Start()
         {
-            player = Camera.main.gameObject.transform;
             agent = GetComponent<NavMeshAgent>();
             agent.destination = player.position;
         }

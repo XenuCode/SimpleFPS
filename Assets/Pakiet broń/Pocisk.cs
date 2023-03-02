@@ -16,7 +16,8 @@ public class Pocisk : MonoBehaviour
     {
         if (enemy.gameObject.CompareTag("Enemy"))
         {
-            enemy.gameObject.GetComponent<TiktakScript>().Damage(20);
+            enemy.gameObject.GetComponent<TiktakScript>().Damage(40);
+            Destroy(gameObject);
         }
 
     }
