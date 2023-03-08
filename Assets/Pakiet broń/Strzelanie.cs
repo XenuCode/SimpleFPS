@@ -20,7 +20,7 @@ public class Strzelanie : MonoBehaviour
     public float lightTime;
     public Gradient ammoGradient;
     public AudioSource shoot,reload;
-
+    
     private void Start()
     {
         magazine.color = ammoGradient.Evaluate( (float) ammoInMagazine / 30);

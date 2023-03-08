@@ -11,6 +11,9 @@ namespace DefaultNamespace
         private NavMeshAgent agent;
         public Transform player;
         public int health=100;
+        public float attackTime;
+        public double lastAttack;
+        public int damage;
         private void Start()
         {
             agent = GetComponent<NavMeshAgent>();
@@ -24,7 +27,26 @@ namespace DefaultNamespace
                 agent.destination = player.position;
                 yield return new WaitForSeconds(0.6f);
             }
-        } 
+        }
+        
+        
+        private void OnCollisionEnter(Collision collision)
+        {
+            lastAttack = Time.timeAsDouble;
+        }
+
+        private void OnCollisionStay(Collision collisionInfo)
+        {
+            if (Time.timeAsDouble - lastAttack > attackTime)
+            {
+                if (collisionInfo.collider.gameObject.CompareTag("Player"))
+                {
+                    collisionInfo.collider.gameObject.GetComponent<Player>().Damage(damage);
+                    lastAttack = Time.timeAsDouble;
+                }
+            }
+        }
+
         public void Damage(int damage)
         {
             health -= damage;

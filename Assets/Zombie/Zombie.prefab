@@ -153,3 +153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   health: 100
+  attackTime: 0.4
+  lastAttack: 0
+  damage: 4
