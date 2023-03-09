@@ -8,6 +8,7 @@ public class Pocisk : MonoBehaviour
     // Start is called before the first frame update
     public float life = 3;
     [SerializeField] private AudioSource _audio;
+    [SerializeField] private GameObject prefab;
     void Awake()
     {
         Destroy(gameObject, life);
@@ -19,8 +20,7 @@ public class Pocisk : MonoBehaviour
         if (enemy.gameObject.CompareTag("Enemy"))
         {
             enemy.gameObject.GetComponent<TiktakScript>().Damage(40);
-            Destroy(gameObject);
         }
-
+        Destroy(gameObject);
     }
 }

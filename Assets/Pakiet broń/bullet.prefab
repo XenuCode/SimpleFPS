@@ -102,6 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 3
   _audio: {fileID: -8416939723385266272}
+  prefab: {fileID: 5745375530948549528, guid: 17956bd68c9d2041090370c193c8514b, type: 3}
 --- !u!54 &3777118114514718030
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -129,8 +130,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01984864, y: 0.02211838, z: 0.04825306}
-  m_Center: {x: -0.0005756408, y: 0.0010301605, z: 0.025731564}
+  m_Size: {x: 0.033309557, y: 0.036554527, z: 0.05303211}
+  m_Center: {x: 0.00082378386, y: -0.0017532349, z: 0.026322652}
 --- !u!96 &-5961017580777355726
 TrailRenderer:
   serializedVersion: 2

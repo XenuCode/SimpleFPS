@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -40,5 +42,21 @@ namespace DefaultNamespace
 
             ColorAdjustments.colorFilter.value = ColorFilterGradient.Evaluate((float)health / 100);
         }
+
+        public void AddHealthF()
+        {
+            StartCoroutine(AddHealth());
+        }
+
+        IEnumerator AddHealth()
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                health += 1;
+                yield return new WaitForSeconds(0.02f);
+            }
+        }
+
+
     }
 }

@@ -20,7 +20,7 @@ public class Strzelanie : MonoBehaviour
     public float lightTime;
     public Gradient ammoGradient;
     public AudioSource shoot,reload;
-    
+    public ParticleSystem ParticleSystem;
     private void Start()
     {
         magazine.color = ammoGradient.Evaluate( (float) ammoInMagazine / 30);
@@ -32,6 +32,7 @@ public class Strzelanie : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0)&& Time.timeAsDouble-lastTime > shootInterval && ammoInMagazine >0)
         {
             shoot.Play();
+            ParticleSystem.Play(true);
             ammoInMagazine--;
             magazine.text = ammoInMagazine.ToString();
             var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
