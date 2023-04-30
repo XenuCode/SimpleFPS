@@ -26,4 +26,6 @@
 - Jakub Jekiel - Główny programista
 - Maciej Kaczara - Oprawa graficzna, design poziomu
 - Krystian Trębacz - Programista, UX/UI
-- Piotr Lasoń - Support
+- Piotr Lasoń - Support*
+
+*Ta, ogółem to odwalił większość roboty ale co tam
