@@ -1,31 +1,37 @@
-# Funkcjonalność programu: Poprawa koordynacji ruchowo wzrokowej
-- - -
-## Instrukcja:
-- Pobierasz i grasz, a jeżeli nie działa to skontaktuj się z supportem
-- Za poruszanie odpowiadają przyciski `W` ,`A` ,`S` ,`D`, z połączenie z `SHIFT` można biegać a pod C kuca się. Za strzelanie odpowiada lewy przycisk myszy.
-- Celem gry jest zabijanie zombie (zielonych tiktaków)
+# Program Functionality: Improving Motor-Visual Coordination
 
-## Wymagania systemowe:
-- Minimalne 
-   - Intel I3 8100 / Ryzen 3 3600 lub lepszy
-   - Nvidia GTX 750 TI / Intel UHD 730 lub lepszy 
-   - 8 GB pamięci RAM
-   - 2GB przestrzeni dyskowej
-- Rekomendowane
-  - Intel I3 8100 / Ryzen 5 3600 lub lepszy
-  - Nvidia GTX 750 TI / Intel Iris Xe lub lepszy
-  - 16 GB pamięci RAM
-  - 4GB przestrzeni dyskowej
+---
 
-## Licencje
+## Instructions:
+- Download and play the game. If it doesn't work, please contact support.
+- Use the `W`, `A`, `S`, `D` keys to move. Hold `SHIFT` to run, and press `C` to crouch. Left mouse button is used for shooting.
+- The objective of the game is to kill zombies (green tictacs).
+
+## System Requirements:
+- Minimum
+   - Intel I3 8100 / Ryzen 3 3600 or better
+   - Nvidia GTX 750 TI / Intel UHD 730 or better
+   - 8 GB RAM
+   - 2GB disk space
+
+- Recommended
+  - Intel I3 8100 / Ryzen 5 3600 or better
+  - Nvidia GTX 750 TI / Intel Iris Xe or better
+  - 16 GB RAM
+  - 4GB disk space
+
+## Licenses
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
-- - -
-## Twórcy
 
-- Jakub Jekiel - Główny programista
-- Maciej Kaczara - Oprawa graficzna, design poziomu
-- Krystian Trębacz - Programista, UX/UI
+---
+
+## Creators
+
+- Jakub Jekiel - Lead Programmer
+- Maciej Kaczara - Graphic Design, Level Design
+- Krystian Trębacz - Programmer, UX/UI
 - Piotr Lasoń - Support*
 
-*Ta, ogółem to odwalił większość roboty ale co tam
+
+*Yeah, he pretty much did most of the work, though.
