@@ -1,9 +1,10 @@
-# Program Functionality: Improving Motor-Visual Coordination
-
+# Simple experimental project made for IT classes 
 ---
 
+(Not finished but in a *Working* state)
+
 ## Instructions:
-- Download and play the game. If it doesn't work, please contact support.
+- Download and play the game. If it doesn't work, please contact support (*It doesn't exist*).
 - Use the `W`, `A`, `S`, `D` keys to move. Hold `SHIFT` to run, and press `C` to crouch. Left mouse button is used for shooting.
 - The objective of the game is to kill zombies (green tictacs).
 
