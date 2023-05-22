@@ -23,15 +23,3 @@
 ## Licenses
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
-
----
-
-## Creators
-
-- Jakub Jekiel - Lead Programmer
-- Maciej Kaczara - Graphic Design, Level Design
-- Krystian Trębacz - Programmer, UX/UI
-- Piotr Lasoń - Support*
-
-
-*Yeah, he pretty much did most of the work, though.
